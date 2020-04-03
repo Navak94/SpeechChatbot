@@ -61,8 +61,7 @@ def SpeechSynth(text):
       print("Speechsynth error")
       
 if __name__ == "__main__":
-    print(directory)
-    print("DONE  TTTTTTT")
+
     InizializeBOT()
     voiceREC = threading.Thread(target=voiceREC) 
     voiceREC.start() 
